@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Epidemic Spread Speed Prediction
 
 ## Project Overview
@@ -47,3 +48,7 @@ Epidemic Speed Prediction/
 ## Future Extensions
 - **FastAPI**: The structure is ready for API integration using the `src` modules.
 - **Docker**: Can be containerized using a `Dockerfile`.
+=======
+# Epidemic-Speed-Prediction
+ml project
+>>>>>>> 6bb05fdea84c538e4f062cfb114c3af994e64252
