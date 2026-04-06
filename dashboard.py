@@ -1,3 +1,5 @@
+import numpy as np
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -8,6 +10,8 @@ from src.preprocessing import preprocess_pipeline
 from src.feature_engineering import feature_engineering_pipeline
 from src.seir_model import SEIRModel
 from src.forecasting import train_arima, predict_arima
+
+infected_data = np.clip(infected_data, 0, None)
 
 # Page Config
 st.set_page_config(page_title="Epidemic Dashboard", layout="wide")
